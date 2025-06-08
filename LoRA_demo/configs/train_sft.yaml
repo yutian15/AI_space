@@ -1,0 +1,9 @@
+# SFT 微调配置模板
+model_name_or_path: "your-hf-model-name"
+output_dir: "output/sft"
+dataset_path: "data/train.jsonl"
+per_device_train_batch_size: 4
+epochs: 3
+learning_rate: 2e-5
+max_seq_length: 512
+fp16: true 
