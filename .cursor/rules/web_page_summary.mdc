@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# web_page_summary 目录结构说明
+
+- 入口文件为 [main.py](mdc:web_page_summary/main.py)，用于网页内容抓取与总结。
+- 配置文件 [mcp_agent.config.yaml](mdc:web_page_summary/mcp_agent.config.yaml) 用于定义 MCP agent 的运行参数、服务器和 LLM 设置。
+- 依赖管理通过 [pyproject.toml](mdc:web_page_summary/pyproject.toml) 和 [uv.lock](mdc:web_page_summary/uv.lock) 实现。
+- 机密信息存储在 [mcp_agent.secrets.yaml](mdc:web_page_summary/mcp_agent.secrets.yaml)。
+- 入口脚本通过命令行参数 `--url` 指定目标网页。

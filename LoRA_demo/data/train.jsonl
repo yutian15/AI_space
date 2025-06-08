@@ -1,0 +1,2 @@
+{"instruction": "请将下面的英文翻译成中文。", "input": "Hello, world!", "output": "你好，世界！"}
+{"instruction": "写一个 Python 函数实现斐波那契数列。", "input": "", "output": "def fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a"} 
