@@ -1,0 +1,3 @@
+pyscipopt
+numpy
+pandas 
